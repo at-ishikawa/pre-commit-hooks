@@ -10,10 +10,10 @@ else
     command=$global_command
 fi
 
-set -x
 command_args=
 if [ $# -gt 1 ]; then
     command_args=$@
 fi
 
+set -x
 $command analyze ${command_args[@]}
