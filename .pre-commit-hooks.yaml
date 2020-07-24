@@ -1,0 +1,8 @@
+- id: phpstan-analyze
+  name: phpstan-analyze
+  description: 'Run phpstan analyze'
+  entry: ./phpstan-analyze.sh
+  args: [--level 8]
+  language: script
+  types: [php]
+  files: \.php$
