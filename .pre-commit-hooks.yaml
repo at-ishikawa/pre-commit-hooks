@@ -1,6 +1,6 @@
 - id: phpstan-analyze
   name: phpstan-analyze
-  description: 'Run phpstan analyze'
+  description: 'Run phpstan analyze with the 8 level as default'
   entry: ./phpstan-analyze.sh
   args: [--level 8]
   language: script
